@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.cherryvibes.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ScreenMixin",
+    "TitleScreenMixin",
+    "LoadingOverlayMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

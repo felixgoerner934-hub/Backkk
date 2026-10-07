@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cherryvibes",
+  "version": "${version}",
+  "name": "Cherry Vibes",
+  "description": "Animated cherry-blossom night backgrounds for Minecraft menus and loading screens.",
+  "authors": ["Cherry Vibes"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.cherryvibes.CherryVibesClient"]
+  },
+  "mixins": [
+    "cherryvibes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
